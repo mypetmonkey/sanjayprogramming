@@ -16,6 +16,7 @@ public class LinkedlistEx {
 		al.addFirst(20);
 		al.addLast(50);
 		System.out.println(al.getFirst());
+		System.out.println(al);
 		
 }
 }

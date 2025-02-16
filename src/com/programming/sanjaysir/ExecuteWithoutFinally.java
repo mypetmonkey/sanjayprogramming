@@ -6,7 +6,8 @@ public class ExecuteWithoutFinally {
 		try{
 			System.out.println(10/0);
 		}catch(Exception e){
-			System.out.println(e);
+			e.printStackTrace();
+			//System.out.println(e);
 		}
 		finally {
          System.exit(0);	
