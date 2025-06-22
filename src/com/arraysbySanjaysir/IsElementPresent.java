@@ -5,7 +5,7 @@ public class IsElementPresent {
 	 public static void main(String[] args) {
 	        int ar[]={2,5,7,9,1,0};
 	        
-	        int n=99;
+	        int n=9;
 	        boolean b=false;
 	        for(int i=0;i<ar.length;i++){
 	            if(ar[i]==n){
